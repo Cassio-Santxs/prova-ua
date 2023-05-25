@@ -9,6 +9,10 @@
     --try-btn-bg-color: #4F9CF9;
 }
 
+button {
+    cursor: pointer;
+}
+
 .header-class {
     display: flex;
     flex-direction: row;
@@ -27,6 +31,7 @@
 
 .header-list li{
     display: flex;
+    cursor: pointer;
     flex-direction: row;
     margin-right: 2rem;
     color: white;
